@@ -334,7 +334,7 @@ static void to_address(char * dest, unsigned int dest_len, const unsigned char *
 	// add the first bytes of the hash as a checksum at the end of the address.
 	os_memmove(address + 1 + SCRIPT_HASH_LEN, address_hash_result_1, SCRIPT_HASH_CHECKSUM_LEN);
 
-	// encode the version + address + cehcksum in base58
+	// encode the version + address + checksum in base58
 	encode_base_58(address, ADDRESS_LEN, dest, dest_len);
 }
 
