@@ -193,7 +193,7 @@ static void neo_main(void) {
 								raw_tx_ix = 0;
 
 								// parse the transaction into human readable text.
-								display_tx_desc();
+								//display_tx_desc();
 
 								// display the UI, starting at the top screen which is "Sign Tx Now".
 								ui_top_sign();
