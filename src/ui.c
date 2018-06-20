@@ -504,7 +504,7 @@ static const bagl_element_t * tx_desc_up(const bagl_element_t *e) {
 	case UI_TOP_SIGN:
 		ui_deny();
 		break;
-
+/*
 	case UI_TX_DESC_1:
 		if (curr_scr_ix == 0) {
 			ui_top_sign();
@@ -518,13 +518,12 @@ static const bagl_element_t * tx_desc_up(const bagl_element_t *e) {
 	case UI_TX_DESC_2:
 		ui_display_tx_desc_1();
 		break;
-
 	case UI_SIGN:
 		curr_scr_ix = max_scr_ix - 1;
 		//copy_tx_desc();
 		//ui_display_tx_desc_1();
 		break;
-
+*/
 	case UI_DENY:
 		ui_sign();
 		break;
@@ -545,7 +544,7 @@ static const bagl_element_t * tx_desc_dn(const bagl_element_t *e) {
 		//copy_tx_desc();
 		//ui_display_tx_desc_1();
 		break;
-
+/*
 	case UI_TX_DESC_1:
 		ui_display_tx_desc_2();
 		break;
@@ -559,7 +558,7 @@ static const bagl_element_t * tx_desc_dn(const bagl_element_t *e) {
 			//ui_display_tx_desc_1();
 		}
 		break;
-
+*/
 	case UI_SIGN:
 		ui_deny();
 		break;
