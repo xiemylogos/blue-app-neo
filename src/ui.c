@@ -540,7 +540,8 @@ static const bagl_element_t * tx_desc_up(const bagl_element_t *e) {
 static const bagl_element_t * tx_desc_dn(const bagl_element_t *e) {
 	switch (uiState) {
 	case UI_TOP_SIGN:
-		curr_scr_ix = 0;
+		ui_deny();
+		//curr_scr_ix = 0;
 		//copy_tx_desc();
 		//ui_display_tx_desc_1();
 		break;
